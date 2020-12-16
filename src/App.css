@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  
+}
+html{
+  background: linear-gradient(to right,
+  rgba(156, 134, 7, 0.445),rgba(70, 62, 62, 0.493),
+  rgba(75, 14, 14, 0.548), rgba(19, 12, 110, 0.445));
 }
 
 .App-logo {
@@ -35,4 +41,67 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sho {
+  border-radius: 8px;
+  background: linear-gradient(to right,
+   rgba(156, 134, 7, 0.445),rgba(70, 62, 62, 0.493),
+   rgba(75, 14, 14, 0.548), rgba(19, 12, 110, 0.445));
+}
+.divbio {
+  background: #8f8e4693;
+  width:  450px;
+  height: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: white;
+  font-size: large;
+  padding: 10px;
+}
+
+.image {
+  max-width: 400px;
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 15%;
+}
+p {
+  justify-content: center;
+}
+
+.image:hover {
+  max-width: 600px;
+  height: 600px;
+  margin-top: 20px;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+.imago{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .imago {
+    animation: imgo infinite 40s linear;
+  }
+}
+
+@keyframes imgo {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+.btn{
+  background: linear-gradient(to right,
+  rgba(156, 134, 7, 0.445),rgba(70, 62, 62, 0.493),
+  rgba(75, 14, 14, 0.548), rgba(19, 12, 110, 0.445));
+  width: 80px;
+  height: 40px;
+  margin-top:30px;
+  color:gold;
+}
+.App-clock{
+  color: gold;
 }
