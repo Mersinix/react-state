@@ -44,6 +44,7 @@ class App extends React.Component {
             <h1>{this.state.Person.profession}</h1>
             <div className="divbio">
               <p>{this.state.Person.bio}</p>
+              
             </div>
           </div>
         ) : (
